@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create My Pet: Virtual Pet Cafe</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <figure>
+        <img src="images/pets.jpg" 
+             alt="A dog and cat enjoying each other's company" 
+             height="100" width="150">
+        <figcaption>Virtual Pet Cafe</figcaption>
+      </figure>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pet-list.html">Meet our Virtual Pets</a></li>
+        <li><a href="pet-create.html">Create My Pet</a></li>
+        <li><a href="#">View My Pets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Create a Custom Virtual Pet</h1>
+    <form action="" method="get">
+      <p>
+        <label for="name">Pet's name:</label>
+        <input type="text" id="name" name="pet-name" required>
+      </p>
+      <fieldset>
+        <legend>What type of pet?</legend>
+        <input type="radio" id="dog" name="pet-type" value="dog">
+        <label for="dog">Dog</label>
+        <input type="radio" id="cat" name="pet-type" value="cat">
+        <label for="cat">Cat</label>
+      </fieldset>
+      <p>
+        <label for="breed">Pet's breed:</label>
+        <select id="breed" name="pet-breed">
+          <option value="calico">Calico</option>
+          <option value="tabby">Tabby</option>
+          <option value="corgi">Corgi</option>
+        </select>
+      </p>
+      <p>
+        <label for="adoption-date">Virtual adoption date:</label>
+        <input type="date" id="adoption-date" name="pet-adoption-date">
+      </p>
+      <p>
+        <label for="age">Pet's age:</label>
+        <input type="number" id="age" name="pet-age">
+      </p>
+      <p>
+        <label for="backstory">Pet's backstory:</label>
+        <textarea id="backstory" name="pet-backstory" rows="5"></textarea>
+      </p>
+      <p>
+        <label for="email">Owner's email:</label>
+        <input type="email" id="email" name="owner-email">
+      </p>
+      <p>
+        <input type="checkbox" id="mailing-list" name="add-to-mailing-list" value="true">
+        <label for="mailing-list">Add me to your mailing list</label>
+      </p>
+      <p>
+        <button>Save this pet</button>
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    All content on this site &copy;Copyright - Virtual Pet Cafe, Inc
+  </footer>
+</body>
+
+</html>
