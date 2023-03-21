@@ -6,7 +6,7 @@ It is a sample website for the "How to Become a Web Developer" series of courses
 
 Links to the courses in this series:
 
-["Gentle Introduction to Programming for Beginners"](https://amzn.to/3e6CgKE)
+["Gentle Introduction to Programming for Beginners"](https://youtu.be/6tBnZ-T4uDE)
 
 ["Gentle Introduction to HTML for Beginners"]()
 
